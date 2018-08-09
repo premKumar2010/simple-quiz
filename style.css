@@ -1,0 +1,42 @@
+body {
+    background: orangered;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+#container {
+    width: 60%;
+    background: blue;
+    margin: 20px auto;
+    overflow: auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    border-bottom: black dashed 1px;
+}
+
+header h1 {
+    margin: 0
+}
+
+section {
+    min-height: auto;
+}
+
+section input[type="submit"] {
+    cursor: pointer;
+    background: orangered;
+    color: #ffffff;
+    height: 30px !important;
+    border-color: snow;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    border-top: black dashed 1px;
+}
