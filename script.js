@@ -47,6 +47,7 @@ function _buildResultTemplate(total) {
     const content = document.createTextNode(`Your final score is ${total} out of 5`);
     finalGrade.appendChild(content);
     result.appendChild(finalGrade);
+    result.scrollIntoView(false);
 }
 
 
