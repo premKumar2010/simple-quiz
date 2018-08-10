@@ -16,7 +16,7 @@ function _buildSubmit() {
 
 /**
  *
- * @param {Object[]} elements - form elements
+ * @param {Object} elements - form elements
  * @param {string []} answers - correct  answers for the question displaying
  * @returns {number}
  * @private
@@ -28,7 +28,7 @@ function _getMarks(elements, answers) {
 
     for (let index = 1; index <= 5; index++) {
         const value = elements['q' + index].value;
-        if (value == answers[index - 1]) {
+        if (value === answers[index - 1]) {
             wrightAnswers += 1;
         }
     }
