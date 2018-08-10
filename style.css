@@ -5,6 +5,10 @@ body {
     font-size: 14px;
 }
 
+#result {
+    background: orangered;
+}
+
 #container {
     width: 60%;
     background: blue;
