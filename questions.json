@@ -1,0 +1,48 @@
+[
+  {
+    "question": "1. Inside which HTML element do we put the JavaScript?",
+    "options": [
+      "&lt js &gt",
+      "&lt javascript &gt",
+      "&lt scripting &gt",
+      "&lt script &gt"
+    ],
+    "answer": "d"
+  },
+  {
+    "question": "2. Where is the correct place to insert a JavaScript?",
+    "options": [
+      "The &lt head &gt section",
+      "Both the &lt head &gt section and the &lt body &gt section are correct",
+      "The &lt body &gt section"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "3. The external JavaScript file must contain the &lt script &gt tag.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "4. How do you write \"Hello World\" in an alert box?",
+    "options": [
+      "msg(\"Hello World\");",
+      "alertBox(\"Hello World\");",
+      "alert(\"Hello World\");",
+      "msgBox(\"Hello World\");"
+    ],
+    "answer": "c"
+  },
+  {
+    "question": "5. How do you create a function in JavaScript?",
+    "options": [
+      "function:myFunction()",
+      "function myFunction()",
+      "function = myFunction()"
+    ],
+    "answer": "b"
+  }
+]
